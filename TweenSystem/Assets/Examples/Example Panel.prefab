@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8870946538894447216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8870946538894447223}
+  - component: {fileID: 6880145006576933386}
+  - component: {fileID: 4441921084109284151}
+  - component: {fileID: 2581148329688469428}
+  m_Layer: 10
+  m_Name: Menu Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8870946538894447223
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8870946538894447216}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6880145006576933386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8870946538894447216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32107a052ee0d94fb198fa0e82a0364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rectTransform: {fileID: 8870946538894447223}
+  _canvasGroup: {fileID: 4441921084109284151}
+  _timerPrefab: {fileID: 4474235942603755592, guid: 10aac2cef21debd4e9f564b5e5344407, type: 3}
+  _tweenX: 1
+  _tweenY: 1
+  _tweenAlpha: 1
+  _set:
+    _xPos: {x: 0, y: 0}
+    _yPos: {x: 700, y: 700}
+    _alpha: {x: 0, y: 0}
+    _time: 0
+    _ease: 0
+  _show:
+    _xPos: {x: 0, y: 0}
+    _yPos: {x: 200, y: 0}
+    _alpha: {x: 0, y: 1}
+    _time: 0.5
+    _ease: 3
+  _hide:
+    _xPos: {x: 0, y: 0}
+    _yPos: {x: 0, y: -200}
+    _alpha: {x: 1, y: 0}
+    _time: 0.5
+    _ease: 4
+--- !u!225 &4441921084109284151
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8870946538894447216}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!222 &2581148329688469428
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8870946538894447216}
+  m_CullTransparentMesh: 1
