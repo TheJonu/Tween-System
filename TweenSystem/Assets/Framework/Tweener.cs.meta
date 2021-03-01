@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d32107a052ee0d94fb198fa0e82a0364
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _rectTransform: {instanceID: 0}
+  - _canvasGroup: {instanceID: 0}
+  - _timerPrefab: {fileID: 4474235942603755592, guid: 10aac2cef21debd4e9f564b5e5344407,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
